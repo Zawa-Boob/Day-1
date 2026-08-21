@@ -1,4 +1,10 @@
 const songs = [
-  ["Golden Hour", "JVKE", 209, "Golden Hour.mp3"],
-  ["Ceilings", "Lizzy McAlpine", 194, "Ceilings.mp3"],
-  ["Death Bed", "Powfu ft. beabadoobee", 173, "Dead Bed.mp3"],
+  ["Ethereal", "Tmxy", 168, "Ethereal.mp3"],
+  ["Luminary", "Joel Sunny", 189, "Luminary.mp3"],
+  ["Zoltraak", "Evan Call", 173, "Zoltraak.mp3"],
+  ];
+
+const $ = (id) => document.querySelector(id);
+
+const title = $("#title");
+
