@@ -207,7 +207,6 @@ button {
   font-size: 12px;
 }
 
-/* Bagian ini menggunakan CSS Variable (--progress) yang akan diatur oleh Javascript. Ini teknik yang sangat bagus! */
 .progress {
   width: 100%;
   height: 4px;
