@@ -1,6 +1,6 @@
 const songs = [
   ["Ethereal", "Tmxy", 168, "Ethereal.mp3"],
-  ["Luminary", "Joel Sunny", 189, "Luminary.mp3"],
+  ["Luminary", "Joel Sunny", 189, "joel sunny - luminary official music video.mp3"],
   ["Zoltraak", "Evan Call", 173, "Zoltraak.mp3"],
   ];
 
