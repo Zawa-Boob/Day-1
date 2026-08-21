@@ -185,6 +185,18 @@ button {
   background: #211d18
 }
 
+.is-spining {
+  animation: spin 3s linear infinite;
+}
+
+.song-info h2 { 
+  margin: 0;
+  color: #f5eee2;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
 
 
   
