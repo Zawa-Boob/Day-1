@@ -97,5 +97,59 @@ button {
   box-shadow: 0 0 11px #78c889cc;
 }
 
+.intro h1 {
+  margin: 0;
+  color: #fff9ed;
+  font-family: "DM Aerif Display", Georgia, Serif;
+  font-size: clamp(42px 10vw, 54px);
+  font-weight: 400;
+  letter-spacing: -.035em;
+  line-heigth: 1;
+}
+
+.role {
+  margin-top: 12px;
+  color: #dca44e;
+  font-size: 11px;
+}
+
+.bio {
+  max-width: 390px;
+  margin: 24px auto 0;
+  color: #bbb4a8;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+  margin: 28px 0 40px;
+  list-style: none;
+}
+
+.skills li {
+  padding: 7px 11px;
+  border: 1px solid #ffffff1c;
+  border-radius: 999px;
+  color: #c7c0b5;
+  font-size: 11px;
+}
+
+.music-player {
+  padding: 22px;
+  border: 1px solid #ffffff1a;
+  border-radius: 16px;
+  background: #191715;
+  text-align: left;
+  box-shadow: 0 18px 50px #0000002e;
+}
+
+
+  
+  
 
   
