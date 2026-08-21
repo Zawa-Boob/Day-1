@@ -6,4 +6,96 @@
 }
 
 html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #11100f;
+}
+
+button, input {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+.page {
+  box-sizing: border-box;
+  position: relative;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  overflow: hidden;
+  padding: 56px 20px;
+}
+
+.glow {
+  position: fixed;
+  top: -220px;
+  left: 50%;
+  width: 620px;
+  heigth: 620px;
+  transform: translateX(-50%);
+  pointer-events: none;
+  background: radial-grandients(circle, rgba(222, 165, 78, .13), transparent 66%);
+}
+
+.portofolio {
+  position: relative;
+  width: min(100%, 470px);
+  text-align: center;
+  animation: appear.7s ease-out;
+}
+
+.eyebrow, .player-heading, .role, .footer-note {
+  margin: 0;
+  font-family: "DM mono", monospace;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  margin-bottom: 42px;
+  color: #8e887d;
+  font-size: 10px;
+}
+
+.profile-photo {
+  display: relative;
+  width: 156px;
+  height: 156px;
+  margin: 0 auto 28px;
+  border: 1px solid #ffffff29;
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px #ffffff06, 22px 48px #00000061;
+}
+
+.protofolio_photo img {
+  dispaly: block;
+  width: 100%;
+  heigth: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+  filter: saturate(.72) sepia(.08);
+}
+
+.online-dot {
+  position: absolute;
+  right: 10px;
+  bottom: 9px;
+  width: 13px
+  heigth: 13px;
+  border: 2px solid #11100f;
+  border-radius: 50%;
+  background: #78c889;
+  box-shadow: 0 0 11px #78c889cc;
+}
+
+
   
