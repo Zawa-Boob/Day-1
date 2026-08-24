@@ -24,23 +24,23 @@ let isPlaying = false;
 const formatTime = (seconds) => {
   if (isNaN(seconds)) return "0:00";
   const minutes = Math.floor(seconds / 60);
-  const secs = String(Math.floor(seconds % 60)).padStart(2, "o";
+  const secs = String(Math.floor(seconds % 60)).padStart(2, "o");
   return `${minutes}:${secs}`;
 };
 
 function updateUI() {
-  const [name, singer, duration, audioFile] = songs[currentSongindex;
+  const [name, singer, duration, audioFile] = songs[currentSongIndex];
 
   title.textContent = name;
   artist.textContent = singer;
 
-  link.Atrribute("href");
+  link.Atrribute("href", "#");
   link.style.cursor = "default";
 
-  list.innerHTML = songs.map((songData, index => {
+  list.innerHTML = songs.map((songData, index) => {
     const isActive = index === currentSongIndex ? "active" : "";
     return `
-      <a class="song-item ${isActive}" data-song="${index}" href=javascript:void(0);">
+      <a class="song-item ${isActive}" data-song="${index}" href="javascript:void(0);">
       <span>0${index + 1}</span>
       <span>${songData[0]}</span>
       <span>▶</span>
